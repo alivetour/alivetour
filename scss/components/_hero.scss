@@ -1,0 +1,36 @@
+.hero {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto 24px auto;
+    border-radius: 0;
+
+    .hero-image {
+        width: 100%;
+    }
+
+    @include xlarge {
+        margin-top: 24px;
+        .hero-image {
+            border-radius: 12px;
+        }
+    }
+
+    @include small {
+        max-width: 428px;
+        margin-top: 24px;
+
+        .hero-image {
+            border-radius: 12px;
+        }
+    }
+
+    @include xsmall {
+        margin-top: 0;
+
+        .hero-image {
+            border-radius: 0;
+        }
+    }
+
+
+}

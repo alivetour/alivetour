@@ -1,0 +1,13 @@
+@mixin css-property($prop, $lg, $md, $sm) {
+    @include large {
+        #{$prop}: $lg;
+    }
+
+    @include medium {
+        #{$prop}: $md;
+    }
+
+    @include small {
+        #{$prop}: $sm;
+    }
+}

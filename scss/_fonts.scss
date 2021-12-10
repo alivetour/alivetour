@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Galano';
+    src: local('Galano Grotesque Heavy'),
+    local('Galano-Grotesque-Heavy'),
+    url('../src/fonts/Galano-Grotesque-Heavy.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Galano';
+    src: local('Galano Grotesque SemiBold'),
+    local('Galano-Grotesque-SemiBold'),
+    url('../src/fonts/Galano-Grotesque-SemiBold.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Galano';
+    src: local('Galano Grotesque Medium'),
+    local('Galano-Grotesque-Medium'),
+    url('../src/fonts/Galano-Grotesque-Medium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Galano';
+    src: local('Galano Grotesque Light'),
+    local('Galano-Grotesque-Light'),
+    url('../src/fonts/Galano-Grotesque-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}

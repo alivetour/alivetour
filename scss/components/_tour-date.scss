@@ -1,0 +1,146 @@
+.tour-dates {
+    background-color: $blue;
+    color: $white;
+
+    @include small {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &-content {
+        padding-top: 24px;
+        @include css-property(padding-bottom, 48px, 36px, 24px);
+    }
+
+    &-title {
+        font-size: 3em;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 24px;
+        text-shadow: 0 4px 28px $pink;
+    }
+
+    &-list {
+        @include css-property(margin-top, 48px, 36px, 24px);
+        padding: 0;
+        list-style: none;
+
+        @include small {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .tour-date-item {
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.on-sale {
+    &-content {
+        display: grid;
+        grid-template-columns: max-content 3fr;
+        gap: 16px;
+        margin-bottom: 24px;
+
+        @include small {
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+    }
+
+    &-title {
+        font-size: 1.125em;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    &-copy {
+        p {
+            font-size: 1.125em;
+            font-weight: 300;
+            margin: 0;
+        }
+
+        a {
+            color: $white;
+        }
+    }
+}
+
+.tour-date-container {
+    text-transform: uppercase;
+    @include small {
+        text-align: center;
+    }
+
+    .date-venue {
+        display: grid;
+        grid-template-columns: 110px 2fr 250px;
+        align-items: center;
+
+        @include small {
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+
+        .show-date {
+            @include css-property(font-size, 1.5em, 1.3125em, 1.5em);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+
+            @include small {
+                justify-content: center;
+            }
+        }
+
+        .venue-wrap {
+            display: flex;
+            align-items: center;
+
+            &:before {
+                content: "•";
+                font-size: 1em;
+                margin-inline-start: 15px;
+                margin-inline-end: 20px;
+            }
+
+            @include small {
+                justify-content: center;
+
+                &:before {
+                    content: none;
+                }
+            }
+        }
+
+        .venue-city {
+            @include css-property(font-size, 1.125em, 1em, 1.125em);
+            display: flex;
+            flex-direction: column;
+            // max-width: 300px;
+        }
+
+        .city {
+            font-weight: 700;
+        }
+
+        .venue {
+            font-weight: 300;
+        }
+
+        .ticket-btns {
+            @include css-property(width, 250px, 220px, 250px);
+            display: flex;
+            justify-content: space-between;
+
+            @include small {
+                margin-top: 8px;
+            }
+        }
+    }
+}

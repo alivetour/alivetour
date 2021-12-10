@@ -1,0 +1,22 @@
+.vip {
+    &-container {
+        background-color: $dark-blue;
+        color: $white;
+    }
+
+    &-content {
+        padding-top: 24px;
+        @include css-property(padding-bottom, 48px, 36px, 24px);
+    }
+
+    &-title {
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+
+    &-list {
+        margin: 0;
+        padding-left: 32px;
+
+    }
+}

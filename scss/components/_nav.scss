@@ -1,0 +1,32 @@
+.nav {
+    background-color: $blue;
+    width: 100%;
+    height: $-nav-height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include small {
+            justify-content: center;
+        }
+    }
+
+    &-link-container {
+        .nav-links {
+            margin-inline-end: 24px;
+
+            &:last-of-type {
+                margin-inline-end: 0;
+            }
+        }
+        
+        @include small {
+            display: none;
+        }
+    }
+}

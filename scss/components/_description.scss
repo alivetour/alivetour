@@ -1,0 +1,7 @@
+.description-content {
+    @include css-property(margin-bottom, 48px, 36px, 24px);
+    
+    .content-copy {
+        margin: 0;
+    }
+}
