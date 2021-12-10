@@ -6,6 +6,7 @@ class Description extends React.Component {
             <section className="container description-content">
                 <p className="content-copy">
                     {this.props.copy}
+                    TEST OF DEPLOY
                 </p>
             </section>
         )
