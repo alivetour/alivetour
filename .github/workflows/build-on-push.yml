@@ -29,14 +29,7 @@ jobs:
             ${{ runner.os }}-node-   
 
       run: npm ci
-
-      - name: Build
-          run: npm run build
-          env:  
-            REACT_APP_SPACE_ID: ${{ secrets.REACT_APP_SPACE_ID }}
-            REACT_APP_CDI: ${{ secrets.REACT_APP_CDI }}
-            REACT_APP_CPAPI: ${{ secrets.REACT_APP_CPAPI }}  
-
+      run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
