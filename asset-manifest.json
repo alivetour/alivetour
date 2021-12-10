@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alivetour/static/css/main.ab63f990.chunk.css",
-    "main.js": "/alivetour/static/js/main.b4f3bfd3.chunk.js",
-    "main.js.map": "/alivetour/static/js/main.b4f3bfd3.chunk.js.map",
+    "main.js": "/alivetour/static/js/main.89090a07.chunk.js",
+    "main.js.map": "/alivetour/static/js/main.89090a07.chunk.js.map",
     "runtime-main.js": "/alivetour/static/js/runtime-main.f731da05.js",
     "runtime-main.js.map": "/alivetour/static/js/runtime-main.f731da05.js.map",
     "static/js/2.13739eeb.chunk.js": "/alivetour/static/js/2.13739eeb.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.f731da05.js",
     "static/js/2.13739eeb.chunk.js",
     "static/css/main.ab63f990.chunk.css",
-    "static/js/main.b4f3bfd3.chunk.js"
+    "static/js/main.89090a07.chunk.js"
   ]
 }
