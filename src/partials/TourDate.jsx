@@ -14,8 +14,16 @@ class TourDate extends React.Component {
                         </div>
                     </div>
                     <div className="ticket-btns">
-                        <Button type="dark-blue" copy="Buy Now" tix={this.props.show.ticketLink}/>
-                        <Button type="green" copy="VIP" tix={this.props.show.vipTicketLink}/>
+                        <Button 
+                            type={this.props.show.tixSoldOut ? "red" : "dark-blue"}
+                            copy={this.props.show.tixSoldOut ? "Sold Out" : "Buy Now"}
+                            tix={this.props.show.ticketLink}
+                        />
+                        <Button 
+                            type={this.props.show.vipSoldOut ? "red" : "green"}
+                            copy={this.props.show.vipSoldOut ? "VIP Sold Out" : "VIP"}
+                            tix={this.props.show.vipTicketLink}
+                        />
                     </div>
                 </div>
             </div>

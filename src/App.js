@@ -32,7 +32,9 @@ const query = `
       city,
       venue,
       ticketLink,
+      tixSoldOut,
       vipTicketLink,
+      vipSoldOut,
       longDate
     }
   },

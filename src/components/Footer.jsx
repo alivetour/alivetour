@@ -6,7 +6,6 @@ class Footer extends React.Component {
             <footer className="footer">
                 <div className="container">
                     <div className="nav-link-container">
-                        <a className="nav-links" href="mailto:doctormikemedia@gmail.com">Contact</a>
                         <a className="nav-links" href="https://www.doctormikemedia.com">Doctor Mike Website</a>
                     </div>
                     <p className="legal">{this.props.copy}</p>

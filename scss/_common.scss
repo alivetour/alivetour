@@ -56,6 +56,16 @@ h2 {
         border: 1px solid $white;
         color: $dark-blue;
     }
+
+    &.red {
+        background: $pink;
+        font-size: 0.75em;
+        @include css-property(padding-top, 15px, 11px, 15px);
+        @include css-property(padding-bottom, 15px, 11px, 15px);
+        border: 1px solid $white;
+        color: $white;
+        pointer-events: none;
+    }
 }
 
 .hidden {
