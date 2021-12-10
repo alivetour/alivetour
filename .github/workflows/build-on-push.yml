@@ -29,11 +29,13 @@ jobs:
             ${{ runner.os }}-node-   
 
       - name: Build
-          run: npm ci
-          run: npm run build
-          REACT_APP_SPACE_ID: ${{ secrets.REACT_APP_SPACE_ID }}
-          REACT_APP_CDI: ${{ secrets.REACT_APP_CDI }}
-          REACT_APP_CPAPI: ${{ secrets.REACT_APP_CPAPI }}  
+          run: |
+            npm ci
+            npm run build
+          env:  
+            REACT_APP_SPACE_ID: ${{ secrets.REACT_APP_SPACE_ID }}
+            REACT_APP_CDI: ${{ secrets.REACT_APP_CDI }}
+            REACT_APP_CPAPI: ${{ secrets.REACT_APP_CPAPI }}  
 
 
       - name: Deploy
