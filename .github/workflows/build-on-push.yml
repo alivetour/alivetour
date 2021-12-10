@@ -10,7 +10,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    environment: gh-pages
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -28,6 +27,10 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-node-
+        env: 
+          REACT_APP_SPACE_ID: ${{ secrets.REACT_APP_SPACE_ID }}
+          REACT_APP_CDI: ${{ secrets.REACT_APP_CDI }}
+          REACT_APP_CPAPI: ${{ secrets.REACT_APP_CPAPI }}      
 
       - run: npm ci
       - run: npm run build
