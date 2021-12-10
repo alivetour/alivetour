@@ -30,7 +30,7 @@ jobs:
 
       - name: Build
           run: |
-            npm ci
+            npm install
             npm run build
           env:  
             REACT_APP_SPACE_ID: ${{ secrets.REACT_APP_SPACE_ID }}
