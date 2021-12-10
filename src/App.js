@@ -32,6 +32,7 @@ const query = `
       city,
       venue,
       ticketLink,
+      vipTicketLink,
       longDate
     }
   },
