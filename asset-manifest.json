@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/alivetour/static/css/main.ab63f990.chunk.css",
-    "main.js": "/alivetour/static/js/main.85fa0dcc.chunk.js",
-    "main.js.map": "/alivetour/static/js/main.85fa0dcc.chunk.js.map",
+    "main.css": "/alivetour/static/css/main.3a4a8e93.chunk.css",
+    "main.js": "/alivetour/static/js/main.b41bbde3.chunk.js",
+    "main.js.map": "/alivetour/static/js/main.b41bbde3.chunk.js.map",
     "runtime-main.js": "/alivetour/static/js/runtime-main.f731da05.js",
     "runtime-main.js.map": "/alivetour/static/js/runtime-main.f731da05.js.map",
     "static/js/2.13739eeb.chunk.js": "/alivetour/static/js/2.13739eeb.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f4a94921.chunk.js": "/alivetour/static/js/3.f4a94921.chunk.js",
     "static/js/3.f4a94921.chunk.js.map": "/alivetour/static/js/3.f4a94921.chunk.js.map",
     "index.html": "/alivetour/index.html",
-    "static/css/main.ab63f990.chunk.css.map": "/alivetour/static/css/main.ab63f990.chunk.css.map",
+    "static/css/main.3a4a8e93.chunk.css.map": "/alivetour/static/css/main.3a4a8e93.chunk.css.map",
     "static/js/2.13739eeb.chunk.js.LICENSE.txt": "/alivetour/static/js/2.13739eeb.chunk.js.LICENSE.txt",
     "static/media/DMLogo.07b81e06.svg": "/alivetour/static/media/DMLogo.07b81e06.svg",
     "static/media/index.scss": "/alivetour/static/media/Galano-Grotesque-SemiBold.5ab77a82.otf"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f731da05.js",
     "static/js/2.13739eeb.chunk.js",
-    "static/css/main.ab63f990.chunk.css",
-    "static/js/main.85fa0dcc.chunk.js"
+    "static/css/main.3a4a8e93.chunk.css",
+    "static/js/main.b41bbde3.chunk.js"
   ]
 }
