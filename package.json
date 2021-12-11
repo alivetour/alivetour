@@ -1,7 +1,7 @@
 {
   "name": "dm-alive-tour",
   "version": "0.1.0",
-  "homepage": "http://alivetour.github.io/alivetour",
+  "homepage": "http://alivetour.github.io",
   "private": true,
   "dependencies": {
     "cra-template": "1.1.2",
