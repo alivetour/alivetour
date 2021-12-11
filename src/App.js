@@ -75,6 +75,7 @@ function App() {
         setOnsale(data.onSaleCollection.items);
         setTourDates(data.tourDateCollection.items);
         setLegal(data.legalCollection.items[0]);
+        
       });
   }, []);
 
