@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.31c7b4b3.chunk.css",
-    "main.js": "/static/js/main.f6b91fa9.chunk.js",
-    "main.js.map": "/static/js/main.f6b91fa9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.156078fd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.156078fd.js.map",
-    "static/js/2.68c0fd49.chunk.js": "/static/js/2.68c0fd49.chunk.js",
-    "static/js/2.68c0fd49.chunk.js.map": "/static/js/2.68c0fd49.chunk.js.map",
-    "static/js/3.f4a94921.chunk.js": "/static/js/3.f4a94921.chunk.js",
-    "static/js/3.f4a94921.chunk.js.map": "/static/js/3.f4a94921.chunk.js.map",
+    "main.js": "/static/js/main.b75ebdc6.chunk.js",
+    "main.js.map": "/static/js/main.b75ebdc6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2113d7b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2113d7b5.js.map",
+    "static/js/2.0f4bde31.chunk.js": "/static/js/2.0f4bde31.chunk.js",
+    "static/js/2.0f4bde31.chunk.js.map": "/static/js/2.0f4bde31.chunk.js.map",
+    "static/js/3.803dfe8e.chunk.js": "/static/js/3.803dfe8e.chunk.js",
+    "static/js/3.803dfe8e.chunk.js.map": "/static/js/3.803dfe8e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.31c7b4b3.chunk.css.map": "/static/css/main.31c7b4b3.chunk.css.map",
-    "static/js/2.68c0fd49.chunk.js.LICENSE.txt": "/static/js/2.68c0fd49.chunk.js.LICENSE.txt",
+    "static/js/2.0f4bde31.chunk.js.LICENSE.txt": "/static/js/2.0f4bde31.chunk.js.LICENSE.txt",
     "static/media/DMLogo.07b81e06.svg": "/static/media/DMLogo.07b81e06.svg",
     "static/media/index.scss": "/static/media/Galano-Grotesque-SemiBold.5ab77a82.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.156078fd.js",
-    "static/js/2.68c0fd49.chunk.js",
+    "static/js/runtime-main.2113d7b5.js",
+    "static/js/2.0f4bde31.chunk.js",
     "static/css/main.31c7b4b3.chunk.css",
-    "static/js/main.f6b91fa9.chunk.js"
+    "static/js/main.b75ebdc6.chunk.js"
   ]
 }
